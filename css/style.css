@@ -1,3 +1,119 @@
 h1 {
     font-size: 10em;
 }
+
+body {
+    background-color: #491ef2;
+    color: white;
+    border-top: black solid 25px;
+    border-bottom: black solid 100px;
+    border-left: black solid 50px;
+    border-right: black solid 50px;
+    margin: auto;
+    padding: 25px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    float: center;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-direction: row;  
+    justify-content: flex-end; 
+}
+
+.sign-In {
+   display: flex;
+   justify-content: center;
+   font-size: 12px;
+}
+
+a {
+color: white;
+}
+
+a:hover {
+    color: salmon;
+}
+
+.try-Button {
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+    background-image: linear-gradient(to right, orange, darkOrange);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+
+.free-Sessions {
+border-radius: 30px;
+background-image: linear-gradient(to right, orange, darkOrange);
+padding: 20px 15px 20px 15px;
+margin: 10px;
+color: white;
+font-size: 12px;
+font-weight: bold;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.functional {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+}
+
+.picture-1 {
+    display: flex;
+    
+    align-items: right;
+}
+
+.see-Science {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    float: center;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-direction: row;  
+    justify-content: flex-end; 
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    float: center;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-direction: row;  
+    justify-content: flex-end; 
+}
+
+.paragraphs {
+    display: flex;
+    align-items: center;
+    float: center;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-direction: row;  
+    justify-content: flex-end; 
+}
+
+.p1 {
+    text-align: left;
+}
+.p2 {
+    text-align: left;
+}
