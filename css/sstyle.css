@@ -1,0 +1,28 @@
+body {
+    background-color: #491ef2;
+    color: white;
+    font: arial;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: salmon;
+}
+
+.try-Button {
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+    background-image: linear-gradient(to right, orange, darkOrange);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
