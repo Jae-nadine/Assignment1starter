@@ -26,3 +26,44 @@ a:hover {
     font-size: 10px;
     font-weight: bold;
 }
+
+.section-1 {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+	padding-top: 50px;
+}
+
+.functional {
+    flex: 0 0 450px;
+    margin-right: -69px;
+    margin-top: 45px;
+    z-index: 1;
+}
+
+.picture-1 {
+   float: right;
+   max-width: 25%;
+   max-height: 15%;
+}
+
+h1 {
+ font-size: 40px;
+ margin-top: 0;
+ }
+
+h2 {
+ font-size: 30px;
+ margin-bottom: 0;
+ font-weight: normal;
+}
+
+.free-Sessions {
+    border-radius: 30px;
+    background-image: linear-gradient(to right, orange, darkOrange);
+    padding: 20px 15px 20px 15px;
+    margin: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
