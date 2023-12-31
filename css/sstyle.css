@@ -32,23 +32,26 @@ a:hover {
 	justify-content: center;
     align-items: center;
 	padding-top: 100px;
-
+    margin: 20px 200px 0 200px;
 }
 
 .functional {
     flex: 0 0 450px;
     margin-top: 45px;
     z-index: 1;
+    font-size: 20px;
 }
 
 .picture-1 {
    float: right;
-   height: 100px;
+   flex: 0 1 900px;
+	z-index: 0;
+    margin-right: 80px;
 }
 
 .text {
     overflow: hidden;
-    font-size: small;
+    
 
 }
 
@@ -63,22 +66,27 @@ h2 {
  font-weight: normal;
 }
 
+.clout {
+    padding: 2px 15px 2px 15px;
+}
+
 
 .free-Sessions {
     border-radius: 30px;
     background-image: linear-gradient(to right, orange, darkOrange);
-    padding: 10px 35px 10px 35px;
+    padding: 10px 100px 10px 100px;
     margin: 10px;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .see-Science {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10%;
-    color: lightgray;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
 }
 
 .section-2 {
@@ -98,38 +106,59 @@ h2 {
 }
 
 .brain-waves {
-    margin-right: 200px;
+    margin-right: 300px;
 }
 
 .thermo {
     margin-left: 10px;
 }
 
+.section2 {
+    display: flex;
+    flex-direction: column;
+    width: 10px;
+    height: 10px;
+}
+
 .section2titles {
     display: flex;
-   justify-content: space-evenly;
+    
+    text-align: left;
 }
 
 .titles {
     display: flex;
+    
+    
 }
-
 .patented-tech {
-    margin-right: 300px;
-}
-
-.section2paragraphs {
+    margin-left: 350px;
+   margin-right: 100px;
     
 }
 
-.paragraphs {
+.tests {
+   
+   padding-left: 300px;
+}
 
+.section2paragraphs {
+    display: flex;
+   
+    text-align: left;
+}
+
+.paragraphs {
+    display: flex;
+    
 }
 
 .p1 {
+   margin-left: 350px;
+   text-align: left;
 
 }
 
 .p2 {
-
+    margin-right: 200px;
 }
