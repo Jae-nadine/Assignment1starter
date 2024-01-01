@@ -37,7 +37,7 @@ a:hover {
 
 .functional {
     flex: 0 0 450px;
-    margin-top: 45px;
+    
     z-index: 1;
     font-size: 20px;
 }
@@ -67,7 +67,7 @@ h2 {
 }
 
 .clout {
-    padding: 2px 15px 2px 15px;
+    margin-bottom: 20px;
 }
 
 
@@ -75,7 +75,7 @@ h2 {
     border-radius: 30px;
     background-image: linear-gradient(to right, orange, darkOrange);
     padding: 10px 100px 10px 100px;
-    margin: 10px;
+    margin-top: 20px;
     color: white;
     font-size: 14px;
 }
